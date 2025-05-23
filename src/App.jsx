@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter , Routes, Route, Link } from 'react-router-dom';
 import "./App.css";
 import Home from "./assets/pages/Home";
 import Catalog from "./assets/pages/Catalog";
@@ -6,7 +6,7 @@ import Detail from "./assets/pages/Detail";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter >
       <header>
         <Link to='/'><h1>🩷💛🩵 동물 조아 🩵💛🩷</h1></Link>
       </header>
@@ -18,7 +18,7 @@ function App() {
         </Routes>
       </main>
       <footer>all rights reserved to OZ</footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

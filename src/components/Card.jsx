@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import bgImage from '../../public/imgs/background.jpg';
 
 const StyledCard = styled.div`
-  background-image: url('/imgs/background.jpg');
+  background-image: url(${bgImage});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
